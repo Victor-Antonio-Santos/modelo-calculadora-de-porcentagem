@@ -8,7 +8,7 @@ try:
     while n == True:
     
         preço = float(input('Qual preço do produto: '))
-        imposto = int(input('Qual a porcentagem de imposto: '))
+        imposto = int(input('Qual a porcentagem de imposto? [1] a [100]: '))
 
         novo_imposto = (imposto / 100) 
 
