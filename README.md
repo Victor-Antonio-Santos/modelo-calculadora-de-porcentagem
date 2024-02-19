@@ -2,10 +2,10 @@
 Calcula a porcentagem desejada em cima do valor desejado
 
 
-n = True
+
 
     
-while n == True:
+while True:
         try:
             preço = float(input('Qual preço do produto: '))
             imposto = int(input('Qual a porcentagem de imposto? [1] a [100]: '))
